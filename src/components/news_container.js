@@ -51,26 +51,11 @@ export default class NewsContainer extends Component{
                 <NewsBlock type="guoji" count={21}></NewsBlock>
               </TabPane>
             </Tabs>
-
-            <Tabs style={{width:'30%'}}>
-              <TabPane key="1" tab="React News产品">
-                <NewsProducts></NewsProducts>
+            <Tabs className="tabs_product" style={{width: '30%'}}>
+              <TabPane tab="React News产品" key="1">
+                <NewsProducts />
               </TabPane>
             </Tabs>
-
-            {/*<Tabs className='Tabs_news' style={{width:'35%'}}>*/}
-              {/*<TabPane key="1" tab="头条新闻">*/}
-                {/*<NewsBlock type="top" count={21}></NewsBlock>*/}
-              {/*</TabPane>*/}
-              {/*<TabPane key="2" tab="国际新闻">*/}
-                {/*<NewsBlock type="guoji" count={21}></NewsBlock>*/}
-              {/*</TabPane>*/}
-            {/*</Tabs>*/}
-            {/*<Tabs className="Tabs_product" style={{width: '30%'}}>*/}
-              {/*<TabPane tab="React News产品" key="1">*/}
-                {/*<NewsProducts />*/}
-              {/*</TabPane>*/}
-            {/*</Tabs>*/}
 
             <div>
               <NewsImageBlock type="guonei" count={8} cardTitle="国内新闻" cardWidth="100%" imageWidth='132px'></NewsImageBlock>

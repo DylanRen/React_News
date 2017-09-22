@@ -8,7 +8,7 @@ export default class NewsProducts extends Component{
   render(){
     return (
       <div>
-        <div className="pro pro_bg">
+        <div className="pro_bg">
           <Link to="http://yuehui.163.com/?from=wscp">同城约会</Link>
           <Link to="http://sports.qq.com/">腾讯体育</Link>
           <Link to="https://www.zhibo8.cc/">直播吧</Link>
